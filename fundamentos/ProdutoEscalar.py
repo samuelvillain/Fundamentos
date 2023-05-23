@@ -5,4 +5,5 @@ c = [0, 0, 0]
 for multiplicacao in range(len(a)):
     c[multiplicacao] = a[multiplicacao] * b[multiplicacao]
 
+
 print(c)

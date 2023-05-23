@@ -7,6 +7,7 @@ matriz1 = [vetor2, vetor1]
 for posicao in range(len(vetor1)):
     vetor3[posicao] = vetor1[posicao] + vetor2[posicao]
 
+
 print(vetor3)
 
 
