@@ -8,19 +8,42 @@
 #         break
 #     nome[ultima_posicao] = bola_da_vez
 #     nome[i] = rede
-#     print(nome)
+#       print(nome)
 
-
+# bubleoshort
 
 #ordenar o vetor [9, 1, 7, 3, 5, 2, 10, 4, 6, 8]
 numero = [9, 1, 7, 3, 5, 2, 10, 4, 6, 8]
 
+numero.sort()
 
-vetor_tamanho = len(numero)
-for i in range(vetor_tamanho):
-    posicao_dois = vetor_tamanho-(9+i)
-    bola_de_futebol = numero[i]
-    gol = numero[posicao_dois]
-    numero[posicao_dois] = bola_de_futebol
-    numero[i] = gol
-    print(numero)
+print(numero)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# def calculo(numero):
+#     for i in range(len(numero)):
+#         soma = numero[i]
+#         numero[i] = soma + int(input("digite um numero que quer somar: "))
+#         subtracao = numero[i]
+#         numero[i] = subtracao - int(input("Digite um numero que quer subtrair: "))
+#         print(numero)
+#
+# if __name__ == "__main__":
+#     numero = [9, 1, 7, 3, 5, 2, 10, 4, 6, 8]
+#     calculo(numero)
+
